@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: #000000;
+  height: 100%;
+  background: hsla(148, 100%, 47%, 1);
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    hsla(148, 100%, 47%, 1) 0%,
+    hsla(211, 90%, 47%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(148, 100%, 47%, 1) 0%,
+    hsla(211, 90%, 47%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(148, 100%, 47%, 1) 0%,
+    hsla(211, 90%, 47%, 1) 100%
+  );
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  background-color: #ffffff95;
+  border: solid 1px #ffffff;
+  font-size: 15px;
+  margin: 5px 20px 20px 20px;
+}
+label {
+  color: #ffffff;
+}
+
+.button {
+  padding: 15px;
+  width: 250px;
+  border-radius: 8px;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  font-size: 20px;
+  margin: 20px;
+  transition: all 0.3s;
+}
+.button:enabled {
+  background-color: #ff8800;
+}
+.button:hover:enabled {
+  background-color: #ff8800;
+	cursor: pointer;
+  scale: 1.05;
+}
+.button:disabled {
+  background-color: #ff88009b;
+}
